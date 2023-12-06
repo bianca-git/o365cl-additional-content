@@ -1,0 +1,629 @@
+repo_name: bianca-git/o365cl-additional-content
+report_id: e3b4bbb44c0ccfea695d9c3583781da6
+repo_type: Public
+timestamp: '2023-12-06T06:30:25+00:00'
+requested_by: simranjeevchawla
+provider: github
+branch: main
+detected_tools_count: 46
+tools:
+- name: Handlebars.js
+  description: Minimal Templating on Steroids
+  website_url: http://handlebarsjs.com/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Templating Languages & Extensions
+  image_url: https://img.stackshare.io/service/1143/Handlebars.png
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source: Repo Metadata
+- name: TypeScript
+  description: A superset of JavaScript that compiles to clean JavaScript output
+  website_url: http://www.typescriptlang.org
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source: Repo Metadata
+- name: React
+  description: A JavaScript library for building user interfaces
+  website_url: https://reactjs.org/
+  version: 16.9.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1020/OYIaJ1KK.png
+  detection_source_url: github.com/bianca-git/o365cl-additional-content/blob/main/src/webpart/package-lock.json
+  detection_source: src/webpart/package.json
+  last_updated_by: Julie Turner
+  last_updated_on: 2021-06-23 14:05:00.000000000 Z
+- name: Susy
+  description: Custom-built web tools for humans
+  website_url: http://susy.oddbird.net/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Front-End Frameworks
+  image_url: https://img.stackshare.io/service/1854/New_Project__5_.png
+  detection_source: src/styleguide/package.json
+  last_updated_by: Julie Turner
+  last_updated_on: 2020-12-15 22:20:39.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source: ".github/workflows/lock.yml"
+  last_updated_by: Julie Turner
+  last_updated_on: 2021-06-04 13:20:14.000000000 Z
+- name: Stylelint
+  description: A mighty, modern CSS linter
+  website_url: http://stylelint.io/
+  version: 13.12.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/5446/V9JsvPul_400x400.jpg
+  detection_source_url: github.com/bianca-git/o365cl-additional-content/blob/main/src/styleguide/package-lock.json
+  detection_source: src/styleguide/package.json
+  last_updated_by: Stefan Bauer
+  last_updated_on: 2021-03-24 16:24:44.000000000 Z
+- name: TSLint
+  description: An extensible linter for the TypeScript language
+  website_url: https://github.com/palantir/tslint
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/5561/303157.png
+  detection_source: src/styleguide/package.json
+  last_updated_by: Julie Turner
+  last_updated_on: 2020-12-15 22:20:39.000000000 Z
+- name: Webpack
+  description: A bundler for javascript and friends
+  website_url: http://webpack.js.org
+  version: 4.44.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JS Build Tools / JS Task Runners
+  image_url: https://img.stackshare.io/service/1682/IMG_4636.PNG
+  detection_source_url: github.com/bianca-git/o365cl-additional-content/blob/main/src/webpart/package-lock.json
+  detection_source: src/webpart/package.json
+  last_updated_by: Julie Turner
+  last_updated_on: 2021-06-23 14:05:00.000000000 Z
+- name: gulp
+  description: The streaming build system
+  website_url: http://gulpjs.com/
+  version: 3.9.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JS Build Tools / JS Task Runners
+  image_url: https://img.stackshare.io/service/844/iruTC031.png
+  detection_source_url: github.com/bianca-git/o365cl-additional-content/blob/main/src/styleguide/package-lock.json
+  detection_source: src/styleguide/package.json
+  last_updated_by: Stefan Bauer
+  last_updated_on: 2021-03-24 16:24:44.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source: src/webpart/package.json
+  last_updated_by: Julie Turner
+  last_updated_on: 2020-12-15 22:20:39.000000000 Z
+- name: HTML
+  description: Hypertext Markup Language for creating web pages.
+  website_url: http://
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/2270/no-img-open-source.png
+  detection_source: src/styleguide/app/index.html
+  last_updated_by: Julie Turner
+  last_updated_on: 2020-12-15 22:20:39.000000000 Z
+- name: Lodash
+  description: A JavaScript utility library
+  website_url: https://lodash.com
+  version: 4.17.21
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/2438/lodash.png
+  detection_source_url: github.com/bianca-git/o365cl-additional-content/blob/main/src/styleguide/package-lock.json
+  detection_source: src/webpart/package.json
+  last_updated_by: Julie Turner
+  last_updated_on: 2021-06-23 14:05:00.000000000 Z
+- name: PowerShell
+  description: A task automation and configuration management framework
+  website_url: https://docs.microsoft.com/en-us/powershell/
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/3681/powershell-logo.png
+  detection_source: Repo Metadata
+- name: Prism
+  description: An extensible syntax highlighter, built with modern web standards
+  website_url: https://prismjs.com/
+  version: 1.23.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/10010/Screen_Shot_2012-07-31_at_21.57.03__400x400.png
+  detection_source_url: github.com/bianca-git/o365cl-additional-content/blob/main/src/styleguide/package-lock.json
+  detection_source: src/styleguide/package.json
+  last_updated_by: Stefan Bauer
+  last_updated_on: 2021-03-24 16:24:44.000000000 Z
+- name: chalk
+  description: terminal colors
+  website_url: https://github.com/chalk/chalk
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/8072/13122722.png
+  detection_source: src/styleguide/package.json
+  last_updated_by: Stefan Bauer
+  last_updated_on: 2021-03-24 16:24:44.000000000 Z
+- name: "@types/react"
+  description: TypeScript definitions for React
+  package_url: https://www.npmjs.com/@types/react
+  version: 16.9.36
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15894/default_1d65e37e65b7f80761374f0202776043277d505d.png
+  detection_source_url: github.com/bianca-git/o365cl-additional-content/blob/main/src/webpart/package-lock.json
+  detection_source: src/webpart/package.json
+  last_updated_by: Julie Turner
+  last_updated_on: 2021-06-23 14:05:00.000000000 Z
+- name: "@types/react-dom"
+  description: TypeScript definitions for React
+  package_url: https://www.npmjs.com/@types/react-dom
+  version: 16.9.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15946/default_54b691c123fc8979741e800e4dcd3936c0f3b246.png
+  detection_source_url: github.com/bianca-git/o365cl-additional-content/blob/main/src/webpart/package-lock.json
+  detection_source: src/webpart/package.json
+  last_updated_by: Julie Turner
+  last_updated_on: 2021-06-23 14:05:00.000000000 Z
+- name: "@types/webpack-env"
+  description: TypeScript definitions for webpack
+  package_url: https://www.npmjs.com/@types/webpack-env
+  version: 1.13.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16614/default_5a21421012fa20e57fe0aeab31228f42e7118abc.png
+  detection_source_url: github.com/bianca-git/o365cl-additional-content/blob/main/src/webpart/package-lock.json
+  detection_source: src/webpart/package.json
+  last_updated_by: Julie Turner
+  last_updated_on: 2021-06-23 14:05:00.000000000 Z
+- name: ajv
+  description: Another JSON Schema Validator
+  package_url: https://www.npmjs.com/ajv
+  version: 6.12.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16186/default_1f3a2fc7d882e29a43394ecdf491b8989ea3f0fa.png
+  detection_source_url: github.com/bianca-git/o365cl-additional-content/blob/main/src/styleguide/package-lock.json
+  detection_source: src/webpart/package.json
+  last_updated_by: Julie Turner
+  last_updated_on: 2020-12-15 22:20:39.000000000 Z
+- name: browser-sync
+  description: Live CSS Reload &amp; Browser Syncing
+  package_url: https://www.npmjs.com/browser-sync
+  version: 2.26.14
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16034/default_a9b6ac3c2fe43713f9a8e43d4668d0352ad0d247.png
+  detection_source_url: github.com/bianca-git/o365cl-additional-content/blob/main/src/styleguide/package-lock.json
+  detection_source: src/styleguide/package.json
+  last_updated_by: Stefan Bauer
+  last_updated_on: 2021-03-24 16:24:44.000000000 Z
+- name: core-js
+  description: Standard library
+  package_url: https://www.npmjs.com/core-js
+  version: 3.15.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15869/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
+  detection_source_url: github.com/bianca-git/o365cl-additional-content/blob/main/src/webpart/package-lock.json
+  detection_source: src/webpart/package.json
+  last_updated_by: Julie Turner
+  last_updated_on: 2021-06-23 14:05:00.000000000 Z
+- name: del
+  description: Delete files and directories
+  package_url: https://www.npmjs.com/del
+  version: 6.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15907/default_a582b9fecca65f37fe68520c8f84d3bcae35db24.png
+  detection_source_url: github.com/bianca-git/o365cl-additional-content/blob/main/src/styleguide/package-lock.json
+  detection_source: src/styleguide/package.json
+  last_updated_by: Julie Turner
+  last_updated_on: 2020-12-15 22:20:39.000000000 Z
+- name: fancy-log
+  description: Log things, prefixed with a timestamp
+  package_url: https://www.npmjs.com/fancy-log
+  version: 1.3.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17353/default_c1932d441699b98abea6098c6f8f65e2acb4f5ed.png
+  detection_source_url: github.com/bianca-git/o365cl-additional-content/blob/main/src/styleguide/package-lock.json
+  detection_source: src/styleguide/package.json
+  last_updated_by: Stefan Bauer
+  last_updated_on: 2021-03-24 16:24:44.000000000 Z
+- name: gulp-autoprefixer
+  description: Prefix CSS
+  package_url: https://www.npmjs.com/gulp-autoprefixer
+  version: 7.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16090/default_8725384794b44fe56f31da1d21ae759cf07be7a5.png
+  detection_source_url: github.com/bianca-git/o365cl-additional-content/blob/main/src/styleguide/package-lock.json
+  detection_source: src/styleguide/package.json
+  last_updated_by: Stefan Bauer
+  last_updated_on: 2021-03-24 16:24:44.000000000 Z
+- name: gulp-concat
+  description: Concatenates files
+  package_url: https://www.npmjs.com/gulp-concat
+  version: 2.6.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15973/default_732016a20524708efe7a4c77497fe9bfeea19ba6.png
+  detection_source_url: github.com/bianca-git/o365cl-additional-content/blob/main/src/styleguide/package-lock.json
+  detection_source: src/styleguide/package.json
+  last_updated_by: Stefan Bauer
+  last_updated_on: 2021-03-24 16:24:44.000000000 Z
+- name: gulp-if
+  description: Conditionally run a task
+  package_url: https://www.npmjs.com/gulp-if
+  version: 3.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16211/default_380ae3d73e22c7ca1f42b96479bcd0095dabc0d3.png
+  detection_source_url: github.com/bianca-git/o365cl-additional-content/blob/main/src/styleguide/package-lock.json
+  detection_source: src/styleguide/package.json
+  last_updated_by: Stefan Bauer
+  last_updated_on: 2021-03-24 16:24:44.000000000 Z
+- name: gulp-load-plugins
+  description: Automatically load any gulp plugins in your package.json
+  package_url: https://www.npmjs.com/gulp-load-plugins
+  version: 2.0.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16154/default_ac04a744873b460c4ef30a7450ed0c83223640ab.png
+  detection_source_url: github.com/bianca-git/o365cl-additional-content/blob/main/src/styleguide/package-lock.json
+  detection_source: src/styleguide/package.json
+  last_updated_by: Stefan Bauer
+  last_updated_on: 2021-03-24 16:24:44.000000000 Z
+- name: gulp-minify
+  description: Js minify plugin for gulp
+  package_url: https://www.npmjs.com/gulp-minify
+  version: 3.1.0
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17403/default_c11ea7d401c11f11d89301d0302509ab7d72e5ac.png
+  detection_source_url: github.com/bianca-git/o365cl-additional-content/blob/main/src/styleguide/package-lock.json
+  detection_source: src/styleguide/package.json
+  last_updated_by: Stefan Bauer
+  last_updated_on: 2021-03-24 16:24:44.000000000 Z
+- name: gulp-plumber
+  description: Prevent pipe breaking caused by errors from gulp plugins
+  package_url: https://www.npmjs.com/gulp-plumber
+  version: 1.2.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16033/default_72d4237e6719b7d75d0307bf8b5718584fdc3425.png
+  detection_source_url: github.com/bianca-git/o365cl-additional-content/blob/main/src/styleguide/package-lock.json
+  detection_source: src/styleguide/package.json
+  last_updated_by: Stefan Bauer
+  last_updated_on: 2021-03-24 16:24:44.000000000 Z
+- name: gulp-sass
+  description: Gulp plugin for sass
+  package_url: https://www.npmjs.com/gulp-sass
+  version: 4.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16002/default_f8be85789693a9901dbcfa43c135c60525ae49a1.png
+  detection_source_url: github.com/bianca-git/o365cl-additional-content/blob/main/src/styleguide/package-lock.json
+  detection_source: src/styleguide/package.json
+  last_updated_by: Stefan Bauer
+  last_updated_on: 2021-03-24 16:24:44.000000000 Z
+- name: gulp-sass-lint
+  description: Gulp plugin for Sass Lint
+  package_url: https://www.npmjs.com/gulp-sass-lint
+  version: 1.4.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17915/default_ddcb3fb8ca8ccaba871e88d87465cd31ce73df71.png
+  detection_source_url: github.com/bianca-git/o365cl-additional-content/blob/main/src/styleguide/package-lock.json
+  detection_source: src/styleguide/package.json
+  last_updated_by: Stefan Bauer
+  last_updated_on: 2021-03-24 16:24:44.000000000 Z
+- name: gulp-sequence
+  description: Run a series of gulp tasks in order
+  package_url: https://www.npmjs.com/gulp-sequence
+  version: 1.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16729/default_c11d90814ded8fcd305b22fdc42b42a3111f1f6d.png
+  detection_source_url: github.com/bianca-git/o365cl-additional-content/blob/main/src/webpart/package-lock.json
+  detection_source: src/webpart/package.json
+  last_updated_by: Julie Turner
+  last_updated_on: 2021-06-23 14:05:00.000000000 Z
+- name: gulp-sourcemaps
+  description: Source map support for Gulp.js
+  package_url: https://www.npmjs.com/gulp-sourcemaps
+  version: 3.0.0
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15958/default_4040fefea2f98006727f63d042275b96a275ab2d.png
+  detection_source_url: github.com/bianca-git/o365cl-additional-content/blob/main/src/styleguide/package-lock.json
+  detection_source: src/styleguide/package.json
+  last_updated_by: Stefan Bauer
+  last_updated_on: 2021-03-24 16:24:44.000000000 Z
+- name: gulp-stylelint
+  description: Gulp plugin for running Stylelint results through various reporters
+  package_url: https://www.npmjs.com/gulp-stylelint
+  version: 13.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18050/image.png
+  detection_source_url: github.com/bianca-git/o365cl-additional-content/blob/main/src/styleguide/package-lock.json
+  detection_source: src/styleguide/package.json
+  last_updated_by: Stefan Bauer
+  last_updated_on: 2021-03-24 16:24:44.000000000 Z
+- name: gulp-tslint
+  description: TypeScript linter Gulp plugin
+  package_url: https://www.npmjs.com/gulp-tslint
+  version: 8.1.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16464/default_73c88a18b684e01cbdbf945631a40a44aff5a777.png
+  detection_source_url: github.com/bianca-git/o365cl-additional-content/blob/main/src/styleguide/package-lock.json
+  detection_source: src/styleguide/package.json
+  last_updated_by: Stefan Bauer
+  last_updated_on: 2021-03-24 16:24:44.000000000 Z
+- name: gulp-typescript
+  description: A typescript compiler for gulp with incremental compilation support
+  package_url: https://www.npmjs.com/gulp-typescript
+  version: 6.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16141/default_73326c44fbfa7369fd17573edb113e5d849468bc.png
+  detection_source_url: github.com/bianca-git/o365cl-additional-content/blob/main/src/styleguide/package-lock.json
+  detection_source: src/styleguide/package.json
+  last_updated_by: Stefan Bauer
+  last_updated_on: 2021-03-24 16:24:44.000000000 Z
+- name: gulp-useref
+  description: Parse build blocks in HTML files to replace references to non-optimized
+    scripts or stylesheets
+  package_url: https://www.npmjs.com/gulp-useref
+  version: 5.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17520/default_0b7f20f712cc7ba96f6445246813407719ce8f32.png
+  detection_source_url: github.com/bianca-git/o365cl-additional-content/blob/main/src/styleguide/package-lock.json
+  detection_source: src/styleguide/package.json
+  last_updated_by: Stefan Bauer
+  last_updated_on: 2021-03-24 16:24:44.000000000 Z
+- name: gulp-wrap
+  description: A gulp plugin to wrap the stream contents with a template
+  package_url: https://www.npmjs.com/gulp-wrap
+  version: 0.15.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17578/default_9e0db4105fe5bddff49c6f669a950724323d94b3.png
+  detection_source_url: github.com/bianca-git/o365cl-additional-content/blob/main/src/styleguide/package-lock.json
+  detection_source: src/styleguide/package.json
+  last_updated_by: Stefan Bauer
+  last_updated_on: 2021-03-24 16:24:44.000000000 Z
+- name: handlebars
+  description: Handlebars provides the power necessary to let you build semantic templates
+    effectively with no frustration
+  package_url: https://www.npmjs.com/handlebars
+  version: 4.7.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16013/default_f8be85789693a9901dbcfa43c135c60525ae49a1.png
+  detection_source_url: github.com/bianca-git/o365cl-additional-content/blob/main/src/styleguide/package-lock.json
+  detection_source: src/styleguide/package.json
+  last_updated_by: Stefan Bauer
+  last_updated_on: 2021-03-24 16:24:44.000000000 Z
+- name: office-ui-fabric-react
+  description: Reusable React components for building experiences for Office 365
+  package_url: https://www.npmjs.com/office-ui-fabric-react
+  version: 7.156.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18780/default_afda66acb9bafb22429bd41a9f8fb9fd9e63686c.png
+  detection_source_url: github.com/bianca-git/o365cl-additional-content/blob/main/src/webpart/package-lock.json
+  detection_source: src/webpart/package.json
+  last_updated_by: Julie Turner
+  last_updated_on: 2021-06-23 14:05:00.000000000 Z
+- name: prismjs
+  description: Lightweight, robust, elegant syntax highlighting
+  package_url: https://www.npmjs.com/prismjs
+  version: 1.23.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16351/default_4cc3f31b8c64a6268fc123f0965a09d1b11180af.png
+  detection_source_url: github.com/bianca-git/o365cl-additional-content/blob/main/src/styleguide/package-lock.json
+  detection_source: src/styleguide/package.json
+  last_updated_by: Stefan Bauer
+  last_updated_on: 2021-03-24 16:24:44.000000000 Z
+  vulnerabilities:
+  - name: Cross-site Scripting in Prism
+    cve_id: CVE-2022-23647
+    cve_url: https://github.com/advisories/GHSA-3949-f494-cm99
+    detected_date: Feb 26
+    severity: high
+    first_patched: 1.27.0
+  - name: Regular Expression Denial of Service (ReDoS) in Prism
+    cve_id: CVE-2021-32723
+    cve_url: https://github.com/advisories/GHSA-gj77-59wh-66hg
+    detected_date: Aug 22
+    severity: high
+    first_patched: 1.24.0
+  - name: prismjs Regular Expression Denial of Service vulnerability
+    cve_id: CVE-2021-3801
+    cve_url: https://github.com/advisories/GHSA-hqhp-5p83-hx96
+    detected_date: Sep 21
+    severity: moderate
+    first_patched: 1.25.0
+- name: react-dom
+  description: React package for working with the DOM
+  package_url: https://www.npmjs.com/react-dom
+  version: 16.9.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15808/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: github.com/bianca-git/o365cl-additional-content/blob/main/src/webpart/package-lock.json
+  detection_source: src/webpart/package.json
+  last_updated_by: Julie Turner
+  last_updated_on: 2021-06-23 14:05:00.000000000 Z
+- name: sha.js
+  description: Streamable SHA hashes in pure javascript
+  package_url: https://www.npmjs.com/sha.js
+  version: 2.4.11
+  license: MIT,BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17831/default_369b3bf3ef062123a581e4817f09cb0004de7ff6.png
+  detection_source_url: github.com/bianca-git/o365cl-additional-content/blob/main/src/webpart/package-lock.json
+  detection_source: src/webpart/package.json
+  last_updated_by: Julie Turner
+  last_updated_on: 2020-12-15 22:20:39.000000000 Z
+- name: whatwg-fetch
+  description: A window.fetch polyfill
+  package_url: https://www.npmjs.com/whatwg-fetch
+  version: 2.0.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16094/default_63a34654baee757196ddff2457bd1c9a0dfb7287.png
+  detection_source_url: github.com/bianca-git/o365cl-additional-content/blob/main/src/webpart/package-lock.json
+  detection_source: src/webpart/package.json
+  last_updated_by: Julie Turner
+  last_updated_on: 2021-06-23 14:05:00.000000000 Z
